@@ -9,7 +9,7 @@
     Trucorp Data
     <br>
     <?php 
-    $con=mysqli_connect('172.18.0.3','root','root','trucorp');
+    $con=mysqli_connect('172.18.0.2','root','root','trucorp');
     $query="SELECT * FROM Users";
     $result=$con->query($query);
     while($data=$result->fetch_assoc()){
