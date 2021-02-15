@@ -8,7 +8,9 @@
 <body>
     Trucorp Data
     <br>
+    
     <?php 
+    $count = 0;
     $con=mysqli_connect('172.18.0.2','root','root','trucorp');
     $query="SELECT * FROM Users";
     $result=$con->query($query);
@@ -21,8 +23,11 @@
 	<br>
 	Kantor  = <?php echo $data['Kantor']?>
 	<br>
+
     <?php
+    $count++;
     }
     ?>
+	<h1>JUMLAH USER = <?php echo $count?> </h1>
 </body>
 </html>
