@@ -29,5 +29,6 @@
     }
     ?>
 	<h1>JUMLAH USER = <?php echo $count?> </h1>
+	new update
 </body>
 </html>
