@@ -3,4 +3,4 @@ ENV MYSQL_DATABASE trucorp
 
 COPY /query /docker-entrypoint-initdb.d
 
-##
+
